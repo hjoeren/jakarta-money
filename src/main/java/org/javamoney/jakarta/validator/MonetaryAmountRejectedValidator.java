@@ -24,8 +24,8 @@ import java.util.ArrayList;
 import java.util.List;
 import javax.money.CurrencyUnit;
 import javax.money.MonetaryAmount;
-import javax.validation.ConstraintValidator;
-import javax.validation.ConstraintValidatorContext;
+import jakarta.validation.ConstraintValidator;
+import jakarta.validation.ConstraintValidatorContext;
 
 public class MonetaryAmountRejectedValidator implements ConstraintValidator<CurrencyRejected, MonetaryAmount>{
 	private final List<CurrencyUnit> currencies = new ArrayList<>();

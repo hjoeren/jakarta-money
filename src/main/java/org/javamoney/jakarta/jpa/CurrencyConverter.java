@@ -18,8 +18,8 @@ package org.javamoney.jakarta.jpa;
 
 import javax.money.CurrencyUnit;
 import javax.money.Monetary;
-import javax.persistence.AttributeConverter;
-import javax.persistence.Converter;
+import jakarta.persistence.AttributeConverter;
+import jakarta.persistence.Converter;
 
 /**
  * Converter to {@link CurrencyUnit} it serializes to {@link String} using the currency code.

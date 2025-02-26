@@ -18,8 +18,8 @@ package org.javamoney.jakarta.validator;
 
 import java.math.BigDecimal;
 import javax.money.MonetaryAmount;
-import javax.validation.ConstraintValidator;
-import javax.validation.ConstraintValidatorContext;
+import jakarta.validation.ConstraintValidator;
+import jakarta.validation.ConstraintValidatorContext;
 
 public class MonetaryAmountMinValidator implements ConstraintValidator<MonetaryMin, MonetaryAmount>{
 	private BigDecimal number;

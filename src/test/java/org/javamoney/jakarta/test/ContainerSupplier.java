@@ -16,8 +16,8 @@
  */
 package org.javamoney.jakarta.test;
 
-import javax.enterprise.inject.se.SeContainer;
-import javax.enterprise.inject.se.SeContainerInitializer;
+import jakarta.enterprise.inject.se.SeContainer;
+import jakarta.enterprise.inject.se.SeContainerInitializer;
 import java.util.function.Supplier;
 import java.util.stream.Stream;
 

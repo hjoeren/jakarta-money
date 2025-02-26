@@ -27,8 +27,8 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.Target;
 
 import javax.money.MonetaryAmount;
-import javax.validation.Constraint;
-import javax.validation.Payload;
+import jakarta.validation.Constraint;
+import jakarta.validation.Payload;
 
 /**
  *Informs the minimum value of a {@link javax.money.MonetaryAmount}.

@@ -21,8 +21,8 @@ import org.javamoney.moneta.Money;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import javax.faces.component.UIComponent;
-import javax.faces.context.FacesContext;
+import jakarta.faces.component.UIComponent;
+import jakarta.faces.context.FacesContext;
 import javax.money.MonetaryAmount;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

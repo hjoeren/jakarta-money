@@ -19,8 +19,8 @@ package org.javamoney.jakarta.jsf;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import javax.faces.component.UIComponent;
-import javax.faces.context.FacesContext;
+import jakarta.faces.component.UIComponent;
+import jakarta.faces.context.FacesContext;
 import javax.money.CurrencyUnit;
 import javax.money.Monetary;
 

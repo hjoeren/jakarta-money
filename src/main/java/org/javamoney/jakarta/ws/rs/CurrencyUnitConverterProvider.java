@@ -22,9 +22,9 @@ import java.lang.reflect.Type;
 
 import javax.money.CurrencyUnit;
 import javax.money.Monetary;
-import javax.ws.rs.ext.ParamConverter;
-import javax.ws.rs.ext.ParamConverterProvider;
-import javax.ws.rs.ext.Provider;
+import jakarta.ws.rs.ext.ParamConverter;
+import jakarta.ws.rs.ext.ParamConverterProvider;
+import jakarta.ws.rs.ext.Provider;
 
 
 @Provider

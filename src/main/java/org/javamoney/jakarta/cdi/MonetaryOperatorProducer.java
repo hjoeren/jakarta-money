@@ -19,8 +19,8 @@ package org.javamoney.jakarta.cdi;
 
 import org.javamoney.moneta.function.MonetaryOperators;
 
-import javax.enterprise.context.ApplicationScoped;
-import javax.enterprise.inject.Produces;
+import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.enterprise.inject.Produces;
 import javax.money.MonetaryOperator;
 
 @ApplicationScoped

@@ -22,7 +22,7 @@ import org.javamoney.moneta.function.MonetaryAmountProducer;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 import javax.money.CurrencyUnit;
 import javax.money.MonetaryAmount;
 
